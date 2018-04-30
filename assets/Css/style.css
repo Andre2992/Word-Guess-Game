@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: orange;
+}
+
+.background{
+        background-color: lightgray;
+        background-image: url("../Images/basketballcourt.jpe");
+        background-size: cover;
+        background-blend-mode: multiply;
+}
+#new-game-button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 6px lightgray;
+}
+
+#new-game-button:hover{
+    color: orangered;
+    background-color: navy;
+    box-shadow: 0 4px lightgray;
+    top:2px;
+}
+
+#new-game-button:active{
+    box-shadow: 0 0 lightgray;
+    top:6px;
+}
+
+#placeholder-section{
+    background-color:black;
+}
+
+#placeholders{
+    letter-spacing: 6px;
+    font-size: 40px;
+}
+
+h3{
+    background-color: black;
+}
